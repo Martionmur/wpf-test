@@ -24,7 +24,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            cboInsurance.ItemsSource = new List<string>() { "SVA", "WGKK", "NÖGKK", "BVA", "BGGK", "SGGK", "Mickey" };
+            cboInsurance.ItemsSource = new List<string>() { "SVA", "WGKK", "NÖGKK", "BVA", "BGGK", "SGGK", "PVA" };
             cboInsurance.SelectedIndex = 0;
         }
 
